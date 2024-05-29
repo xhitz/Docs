@@ -12,10 +12,12 @@ This guide will familiarize you with the basic functions of the decentralized ex
 
 ## Table of contents
 1) [Smart Contract Addresses](#smart-contract-addresses)
-3) [Connect to Uniswap](#connect-wallet-to-uniswap)
-4) [Prepare to swap](#prepare-to-swap)
-5) [Swap tokens](#how-to-swap-tokens-on-uniswap)
-6) [Add MOR to Metamask](#add-mor-to-metamask)
+2) [Connect to Uniswap](#connect-wallet-to-uniswap)
+3) [Prepare to swap](#prepare-to-swap)
+4) [Swap tokens](#how-to-swap-tokens-on-uniswap)
+5) [Add MOR to Metamask](#add-mor-to-metamask)
+6) [Sell MOR tokens](#how-to-sell-mor-tokens-on-uniswap)
+7) [Unwrap wETH into ETH](#how-to-unwrap-weth-into-eth)
 
 ---
 
@@ -103,6 +105,72 @@ After performing these steps you will be able to see MOR token balance in the to
 
 <img src="/Graphics/Docs%20Graphics/English/MOR%20Claim%20Test%20Guide/import%20MOR.png" width=45% height=45%>
   
+---
+
+## How to sell MOR tokens on Uniswap
+
+### Prepare to sell MOR tokens
+
+Go to the Uniswap web app SWAP page [https://app.uniswap.org/swap](https://app.uniswap.org/swap?chain=arbitrum) search for and select tokens you wish to swap.
+
+> [!NOTE]
+> **In the example below we will sale MOR for wETH, but the process is the same for swaps in both directions.**
+> 
+
+Click on **You pay** (token you want to sell) field drop-down menu and select **MOR** token.
+
+<img alt="github" src="https://github.com/antonbosss/Docs/assets/4604698/329a7965-9500-43c4-aa9d-3007e84dd0da" width=75% height=75%>
+
+Perform the same actions with **You receive** (token you want to buy) field. Select **wETH** token (or another token you want to receive).
+
+<img alt="github_doc" src="https://github.com/antonbosss/Docs/assets/4604698/77650fa2-97d6-4bf4-bf4c-8f5b33c31400" width=75% height=75%>
+
+### Selling MOR tokens
+
+Enter the amount of MOR tokens you want to sell in **You pay** field, the amount of tokens **You receive** will calculate automatically according to the current price.
+
+Check conditions, click **Swap**
+
+<img alt="github_sale" src="https://github.com/antonbosss/Docs/assets/4604698/57cd2396-ed15-4ee1-9ba4-ff524adcfaa7" width=75% height=75%>
+
+Approve spendings for the MOR token, and confirm the swap. 
+
+<img alt="github_swap" src="https://github.com/antonbosss/Docs/assets/4604698/65111428-4c5a-4c94-82e5-d1671c748fbf" width=75% height=75%>
+
+After the swap transaction is confirmed, you will see updated balances in your wallet. 
+
+<img alt="github_sale4" src="https://github.com/antonbosss/Docs/assets/4604698/6a3b29d6-f2bb-4f0d-b3b5-3677c457e6f8" width=75% height=75%>
+
+---
+
+## How to unwrap wETH into ETH 
+
+### Prepare to unwrap wETH 
+
+Go to the Uniswap web app SWAP page [https://app.uniswap.org/swap](https://app.uniswap.org/swap?chain=arbitrum).
+
+Click on **You pay** (token you want to sell) field drop-down menu and select **wETH** token.
+
+<img alt="You_Pay_Unwrap" src="https://github.com/antonbosss/Docs/assets/4604698/4a3d6db8-c61e-47ac-90f6-74ac9d843ed0" width=75% height=75%>
+
+Perform the same actions with **You receive** (token you want to buy) field and select ETH. 
+
+<img alt="unwrap_3" src="https://github.com/antonbosss/Docs/assets/4604698/e5b33cf5-0388-46bc-b4a5-4d9427ed4aae" width=75% height=75%>
+
+### How to unwrap wETH into ETH
+
+Enter the amount of wETH you want to unwrap in **You pay** field, the amount of ETH you will receive will calculate automatically.
+
+Check conditions, click **Unwrap.**
+
+<img alt="unwrap_all" src="https://github.com/antonbosss/Docs/assets/4604698/192d10da-a6bf-4163-a7f5-4f57867fe3de" width=75% height=75%> 
+
+Approve the spendings for the wETH token, and confirm the swap. 
+
+After the transaction is confirmed, you will see updated ETH balance in your wallet. 
+
+<img alt="unwrap_6" src="https://github.com/antonbosss/Docs/assets/4604698/6cb980f2-2326-48f8-9cb3-2ce16484a9d5" width=75% height=75%>
+
 ---
 
 > [!TIP]  
